@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCustPrimaryDark"
+    android:orientation="vertical">
+    <fragment android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_alignParentTop="true"
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/vidFrame"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+    <VideoView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_gravity="center" />
+        <ImageView
+            android:id="@+id/imCancel"
+            android:layout_margin="4dp"
+            android:layout_gravity="right"
+            android:layout_width="@dimen/margin_20dp"
+            android:layout_height="@dimen/margin_20dp"
+            android:src="@drawable/ic_cancel"/>
+    </FrameLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawHorizontalTrack="true" />
+    </LinearLayout>
+</LinearLayout>

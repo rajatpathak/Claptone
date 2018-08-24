@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#fff</color>
+
+
+    <color name="colorCustPrimary">#3F51B5</color>
+    <color name="colorCustPrimaryDark">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOrange">#B49434</color>
+    <color name="color_share_icon">#707070</color>
+</resources>
+
+

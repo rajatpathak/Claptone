@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorCustPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_weight="1"
+      android:paddingLeft="@dimen/txt_size_16dp"
+      android:paddingRight="@dimen/txt_size_16dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <ImageView
+        android:background="@drawable/spotify"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+  </LinearLayout>
+  <LinearLayout
+
+      android:paddingLeft="@dimen/txt_size_16dp"
+      android:paddingRight="@dimen/txt_size_16dp"
+      android:layout_weight="1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <ImageView
+      android:layout_marginTop="@dimen/txt_size_16dp"
+      android:layout_marginBottom="40dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_weight="1"
+      android:background="@drawable/music_app"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  </LinearLayout>
+</LinearLayout>

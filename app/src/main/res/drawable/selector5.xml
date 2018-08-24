@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_action_shop_selected" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_action_shirt"/> <!-- default -->
+</selector>

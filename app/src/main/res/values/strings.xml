@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Claptone</string>
+    <string name="signup_login_str">Already have an Account ? </string>
+    <string name="signup_login">Login</string>
+    <string name="lonin_forgot_pswd">Forgot Password ?</string>
+    <string name="forgot_msg">We\'ll send you a link to Reset your Password.</string>
+    <string name="title_activity_home_page">ActivityHomePage</string>
+    <string name="title_clap_yourself">Clap Yourself</string>
+    <string name="title_shows">Shows</string>
+    <string name="title_music">Music</string>
+    <string name="title_video">Video</string>
+    <string name="title_shop">Shop</string>
+
+    <string name="disappointed_ok">Well, okay then.</string>
+    <string name="permission_camera_rationale">This app needs access to the camera in order to detect people’s faces.</string>
+    <string name="no_camera_permission">This app can’t run because it doesn’t have permission to use the camera. It will now exit.</string>
+    <string name="low_storage_error">This app can’t download the face detector components it needs because this device has too little available storage.</string>
+
+
+    <string-array name="video_id_array">
+        <item>CqhpNxI8qYw</item>
+        <item>sasCrpgHDy8</item>
+        <item>iJeh3x09Ya8</item>
+        <item>B5zRaD7B504</item>
+        <item>9qWHzj8k-Uo</item>
+        <item>RjiK45wC924</item>
+        <item>RH3zaLO8H4E</item>
+        <item>o14pyzosjvk</item>
+        <item>5SQrpBQne7A</item>
+        <item>5WJ3r67ORxo</item>
+    </string-array>
+</resources>
